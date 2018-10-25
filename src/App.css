@@ -1,0 +1,34 @@
+.parentn {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center; 
+    flex-direction: column;
+    height: 25vh;
+    width: 100px;
+    background: lightslategray;
+}
+.childn {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    margin: 20px auto;
+    /* width: 100%; */
+}
+.childn > div {
+    /* margin: 20px auto; */
+    padding: 12px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    
+    /* border: 1px solid black; */
+}
+.links {
+    text-decoration: none;
+    color: black;
+}
+.childn > div:hover{
+    background: lightskyblue;
+    
+}
