@@ -3,17 +3,18 @@
     /* justify-content: space-between; */
     align-items: center; 
     flex-direction: column;
-    height: 25vh;
+    height: 200px;
     width: 100px;
     background: lightslategray;
+    font-family: cursive;
 }
 .childn {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
     display: flex;
-    margin: 20px auto;
-    /* width: 100%; */
+    margin: 20px auto 0;
+    width: 100%;
 }
 .childn > div {
     /* margin: 20px auto; */
